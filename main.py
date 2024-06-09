@@ -57,8 +57,8 @@ def extrair_informacoes(txt_path, csv_path):
         escritor.writerows(dados)
 
 # Caminho para o arquivo TXT e CSV
-txt_path = 'C:/Users/lucas/Documents/litologia_Extractor/1RJS0106RJ_agp.txt'
-csv_path = 'C:/Users/lucas/Documents/litologia_Extractor/litologia.csv'
-
+txt_path = 'C:/Users/lucas/GitHub/lit_extractor/1RJS0106RJ_agp.txt'
+csv_path = 'C:/Users/lucas/GitHub/lit_extractor/litologia.csv'
+#C:\Users\lucas\Documents\GitHub\lit_extractor
 # Chamar a função para extrair as informações e salvar no CSV
 extrair_informacoes(txt_path, csv_path)
